@@ -1,0 +1,42 @@
+2024-11-14 07:43:23 - ALERT: Disk usage is above 80% (Current: 5459348%)
+2024-11-14 07:43:23 - Running processes:
+      PID    PPID    PGID     WINPID   TTY         UID    STIME COMMAND
+     1216    1188    1216      25444  pty0      197609 07:43:22 /usr/bin/bash
+     1187       1    1187      21392  ?         197609 07:42:02 /usr/bin/mintty
+     1239    1216    1216       5964  pty0      197609 07:43:23 /usr/bin/ps
+     1188    1187    1188      24132  pty0      197609 07:42:02 /usr/bin/bash
+2024-11-14 08:52:46 - Running processes:
+    PID TTY          TIME CMD
+      1 ?        00:00:00 systemd
+      2 ?        00:00:00 init-systemd(Ub
+      7 ?        00:00:00 init
+     52 ?        00:00:00 systemd-journal
+     76 ?        00:00:00 systemd-udevd
+     81 ?        00:00:00 systemd-network
+    237 ?        00:00:00 snapfuse
+    242 ?        00:00:00 snapfuse
+    243 ?        00:00:03 snapfuse
+    250 ?        00:00:00 systemd-resolve
+    253 ?        00:00:00 accounts-daemon
+    254 ?        00:00:00 dbus-daemon
+    260 ?        00:00:00 networkd-dispat
+    261 ?        00:00:00 polkitd
+    262 ?        00:00:00 rsyslogd
+    263 ?        00:00:00 snapd
+    269 ?        00:00:00 systemd-logind
+    271 ?        00:00:00 udisksd
+    280 ?        00:00:00 ModemManager
+    321 ?        00:00:00 cron
+    324 ?        00:00:00 unattended-upgr
+    330 ?        00:00:00 atd
+    333 hvc0     00:00:00 agetty
+    337 tty1     00:00:00 agetty
+    575 ?        00:00:00 SessionLeader
+    576 ?        00:00:00 Relay(577)
+    577 pts/0    00:00:00 bash
+    578 pts/1    00:00:00 login
+    681 ?        00:00:00 systemd
+    682 ?        00:00:00 (sd-pam)
+    706 pts/1    00:00:00 bash
+    724 pts/0    00:00:00 system_health.s
+    746 pts/0    00:00:00 ps
