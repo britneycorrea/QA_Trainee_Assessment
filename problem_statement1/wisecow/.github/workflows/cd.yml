@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:  # Allows manual triggering of the workflow from the GitHub UI
 
 jobs:
   deploy:
@@ -46,4 +47,3 @@ jobs:
       - name: Update Kubernetes Deployment
         run: |
           kubectl set image deployment/wisecow-deployment wisecow-app=${{ secrets.DOCKER_USERNAME }}/wisecow-app:latest
-# Test trigger for CD pipeline
