@@ -46,3 +46,4 @@ jobs:
       - name: Update Kubernetes Deployment
         run: |
           kubectl set image deployment/wisecow-deployment wisecow-app=${{ secrets.DOCKER_USERNAME }}/wisecow-app:latest
+# Test trigger for CD pipeline
